@@ -8,6 +8,7 @@ import img3 from '../../assets/img3.jpg'
 import Carousel from 'react-bootstrap/Carousel';
 
 function Welcome(props) {
+
   return <img className="d-block w-100" src={props.img} alt="" />;
 }
 
